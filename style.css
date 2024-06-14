@@ -1,0 +1,2007 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #0c0c0c;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*****Start Nav*****/
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    width: 100%;
+    height: 76px;
+    position: fixed;
+    z-index: 5;
+}
+
+.left-side .left-h1{
+    color: #4cd7af;
+    position: absolute;
+    margin-right: 15px;
+    font-size: 40px;
+    left: 10%;
+    top: 12px;
+    margin-left: 20px;
+    background-color: #151515;
+}
+.left-side .left-p{
+    color: white;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 6px;
+    left: 13%;
+    top: 59px;
+    margin-right: 20px;
+    background-color: #151515;
+}
+.left-side .left-p1{
+    color: white;
+    position: absolute;
+    margin-left: 15px;
+    font-size: 6px;
+    left: 15.1%;
+    top: 54px;
+    margin-right: 20px;
+    background-color:  #151515;
+    
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 15%;
+}
+.right-side a{
+    text-decoration: none;
+    justify-content: center;
+    justify-content: center;
+    color: white;
+    padding: 8px 15px 8px 20px;
+    background-color: #151515;
+}
+.right-side a.icone {
+    color: #4cd7af;
+    background-color:  #151515;
+}
+/*****End Nav*****/
+
+
+/*****Start Section*****/
+section{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.right-sec{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 40%;
+    height: 40%;
+}
+
+.right-sec img{
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    margin-left: 910px;
+    margin-top: 100px;
+
+
+       
+   }
+.gradiant{
+ height: 100%;
+ width: 100%;
+ left:910px;
+ bottom: 5px;
+ margin-top: 200px;
+ right: 0;
+ position: absolute;
+ background-color: #0c0c0c;
+ opacity: 0.2;
+ background-image: linear-gradient(to left,#4cd7af,transparent);
+ z-index: 3;
+ 
+}
+
+
+.left-sec{
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+.left-sec p{
+    font-size: 18px;
+    color: #4cd7af;
+    position: absolute;
+    left: 164px;
+    bottom: 500px;
+    background-color: none;
+}
+.left-sec .f-h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 164px;
+    bottom: 430px;
+    background-color: none;
+
+}
+.left-sec .s-h1{
+    font-size: 50px;
+    color:#4cd7af ;
+    font-weight: bold;
+    position: absolute;
+    left: 370px;
+    bottom:430px ;
+    background-color: none;
+}
+.left-sec .th-h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 168px;
+    bottom: 370px;
+}
+hr{
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: 167px;
+    margin-top: 150px;
+    bottom: 350px;
+    background-color: #4cd7af;
+
+}
+.left-sec .s-p{
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    margin-top: 140px;
+    bottom: 50%;
+    margin-top: 140px;
+    bottom: 270px;
+    margin-left: auto;
+    margin-left: auto;
+    font-weight: lighter;
+}
+
+.fa-play{
+    position: absolute;
+    
+    background-size: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 190px;
+    bottom: 150px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+   
+}
+.fa-play::before{
+background-color: #4cd7af;
+
+background-size: 90px;
+padding-top: 20px;
+padding-left: 25px;
+padding-right: 20px;
+padding-bottom: 20px;
+border-radius: 50%;
+filter: blur(#4cd7af)
+}
+.fa-play::after{
+background-size: 90px;
+padding-top: 20px;
+padding-left: 25px;
+padding-right: 20px;
+padding-bottom: 20px;
+border-radius: 50%;
+filter: brightness(#4cd7af);
+}
+.left-sec a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    background-color: #0c0c0c;
+    bottom: 180px;
+    left: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-sec hr{
+    position: absolute;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    right: 255px;
+    top: 400px;
+    background-color: #151515;
+    height: 1px;
+
+}
+.left-sec .promotion{
+    position: absolute;
+    color: #4cd7af;
+    font-size: 13px;
+    left: 270px;
+    bottom: 120px;
+}
+.sec-2{
+    position: relative;
+    
+}
+table{
+    position: absolute;
+    width: 640px;
+    height: 390px;
+    left: 55%;  
+    top: 10px;
+    border-spacing: 10px;
+    padding: none;
+    margin: none;
+}
+table .img-1{
+    position: absolute;
+    width: 45px;
+    right: 22%;
+    top: 30px;
+}
+table .h1-1{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    right: 17%;
+    top: 90px;
+
+}
+table .p-1{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(174, 173, 173);
+    top: 120px;
+    right: 14% ;
+}
+.t1{
+    position: absolute;
+    top: 18px;
+    right: 50px;
+}
+.gradient1{
+    position: absolute;
+    width: 48%;
+    left: 51%;
+    bottom: 40px;
+    height: 35%;
+    opacity: 0.2;
+    top: 55px;
+    background-image: linear-gradient(to top,#4cd7af,transparent);
+}
+table .img-2{
+    position: absolute;
+    width: 45px;
+    top: 20px;
+    right: 71%;
+}
+
+table .h1-2{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    right: 66%;
+    top: 80px;
+}
+table .p-2{
+    position: absolute;
+    color: rgb(174, 173, 173);
+    font-size: 10px;
+    right: 61%;
+   top: 115px;
+
+}
+.t2{
+    position: absolute;
+    right: 55px;
+    top: 20px;
+}
+table .img-3{
+    position: absolute;
+    width: 45px;
+    right: 22%;
+    bottom: 122px;
+
+}
+table .h1-3{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    right: 16%;
+    bottom: 95px;
+}
+table .p-3{
+    position: absolute;
+    color: rgb(174, 173, 173);
+    font-size: 10px;
+    right: 13%;
+    bottom: 70px;
+}
+.t3{
+    position: absolute;
+    top: 20px;
+    right: 30%;
+}
+table .img-4{
+    position: absolute;
+    width: 45px;
+    right: 71%;
+    bottom: 148px;
+}
+table .h1-4{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    right: 65%;
+    bottom: 120px;
+}
+table .p-4{
+    position: absolute;
+    font-size: 10px;
+    color: rgb(119, 118, 118);
+    right: 62%;
+    bottom: 100px;
+}
+.t4{
+    position: absolute;
+    top: 20px;
+    right: 30%;
+}
+.gradient2{
+    position: absolute;
+    width: 48%;
+    height: 35%;
+    right: 51%;
+    bottom: 32px;
+    background-color: #0c0c0c;
+    opacity: 0.2;
+    background-image: linear-gradient(to top,#4cd7af,transparent);
+}
+.p-5{
+    position: absolute;
+    font-size: 13px;
+    color: #4cd7af;
+    left: 10%;
+    top: 35px;
+}
+.h1-5{
+    position: absolute;
+    font-size: 55px;
+    color: white;
+    left: 10%;
+    top: 55px;
+}
+.t5{
+    color: #4cd7af;
+}
+.hr-2{
+    position: absolute;
+    width: 6%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4cd7af;
+    left: 10%;
+    top: 1px;
+}
+.p-6{
+    position: absolute;
+    font-size: 14px;
+    color: rgb(174, 173, 173);
+    margin-left: auto;
+    margin-right: auto;
+    top: 190px;
+    left: 150px;
+    
+
+}
+.button{
+    position: absolute;
+    background-color: #4cd7af;
+    width: 90px;
+    height: 50px;
+    left: 150px;
+    top: 380px;
+    border: none;
+}
+.p-7{
+    position: absolute;
+    margin-bottom: 12px;
+    left: 16px;
+    top: 17px;
+    color: white;
+    background-color: #4cd7af;
+}
+.d-left img{
+    position: absolute;
+    width: 430px;
+    height: 100%;
+    left: 125px;
+    top: 1220px;
+    z-index: 2;
+}
+.d-right .p-1{
+    position: absolute;
+    font-size: 15px;
+    color: #4cd7af;
+    right: 46%;
+    top: 1320px;
+
+}
+.d-right .h1-1{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    right: 15%;
+    top: 1360px;
+}
+.t6{
+    color: #4cd7af;
+}
+.d-right hr{
+    position: absolute;
+    width: 6%;
+    right: 44.5%;
+    top: 1360px;
+    background-color: #4cd7af;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+}
+.d-right .p-2{
+    position: absolute;
+    font-size: 13px;
+    color: rgb(174, 173, 173);
+    right: 15%;
+    top: 1550px;
+}
+.d-right .img-2{
+    position: absolute;
+    width: 60px;
+    right: 47%;
+    top: 1650px
+}
+.d-right .h1-2{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    right: 40%;
+    top: 1660px;
+}
+.d-right .p-3{
+    position: absolute;
+    color: rgb(174, 173, 173);
+    right: 35.5%;
+    top: 1690px;
+    font-size: 13px;
+
+}
+.d-right .img-3{
+    position: absolute;
+    width: 60px;
+    top: 1650px;
+    right: 25%;
+}
+.d-right .h1-3{
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    right: 15.5%;
+    top: 1660px;
+}
+.d-right .p-4{
+    position: absolute;
+    font-size: 13px;
+    color: rgb(174, 173, 173);
+    top: 1690px;
+    right: 13.5%;
+}
+.sec-4{
+    width: 100%;
+    height: 100%;
+}
+.t-2{
+    position: absolute;
+    top: 1957px;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    z-index: -1;
+}
+.td-1{
+    position: absolute;
+    left: 90px;
+    bottom: 350px;
+}
+.t-2 .img-1{
+    position: absolute;
+    width: 65px;
+    left: 155px;
+    top: 80px;
+
+}
+.t-2 .h1-1{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    left: 110px;
+    top: 150px;
+}
+.t7{
+    color: #4cd7af;
+    font-size: 70px;
+}
+.t-2 .h2-1{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 200px;
+    top: 260px;
+}
+.td-2{
+    position: absolute;
+    left: 110px;
+    bottom: 350px;
+}
+.t-2  .img-2{
+    position: absolute;
+    width: 65px;
+    top: 80px;
+    left: 430px;
+}
+.t-2 .h1-2{
+    position: absolute;
+    color: #4cd7af;
+    font-size: 70px;
+    left: 410px;
+    top :150px
+}
+.project{
+    position: absolute;
+    right: 58px;
+}
+.t8{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    left: 80px;
+    top: 35px;
+    bottom: 1px;
+}
+.t-2 .h2-2{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 450px;
+    top: 260px;
+}
+.happy{
+    position: absolute;
+    right: 98px;
+}
+.td-3{
+    position: absolute;
+    right: 180px;
+    bottom: 350px;
+}
+.award{
+    position: absolute;
+    right: 87px;
+}
+.t-2 .img-3{
+    position: absolute;
+    width: 65px;
+    right: 440px;
+    top: 80px;
+}
+.t-2 .h1-3{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    right: 400px;
+    top: 150px;
+}
+.t9{
+    color: #4cd7af;
+    font-size: 70px;
+}
+.t-2 .h2-3{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 260px;
+    right: 390px;
+}
+.td-4{
+    position: absolute;
+    right: 150px;
+    bottom: 350px;
+}
+.team{
+    position: absolute;
+    right: 95px;
+}
+.t-2 .img-4{
+    position: absolute;
+    width: 65px;
+    top: 80px;
+    right: 160px;
+}
+.t-2 .h1-4{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 150px;
+    right: 140px;
+}
+.t10{
+    color: #4cd7af;
+    font-size: 70px;
+}
+.t-2 .h2-4{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 260px;
+    right: 120px;
+}
+.img-back{
+    position: absolute;
+    width: 1400px;
+    height: 350px;
+    right: 0px;
+    top: 1970px;
+    z-index: 1;
+    opacity: 0.2;
+}
+.gradient5{
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    background-color: #0c0c0c;
+    top: 1960px;
+    opacity: 0.2;
+    background-image: linear-gradient(to right,#4cd7af,transparent);
+    z-index: 1;
+}
+.sec-5{
+    position: relative;
+    width: 100%;
+
+}
+.sec-5 .img-r{
+    position: absolute;
+    background-image: url(G9.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    right: 150px;
+    top: 1690px;
+}
+.sec-5 .p-1{
+    position: absolute;
+    font-size: 18px;
+    color: #4cd7af;
+    top: 1710px;
+    left: 150px;
+}
+.sec-5 .h1-1{
+    position: absolute;
+    color: white;
+    font-size: 65px;
+    left: 148px;
+    top: 1730px;
+}
+.t11{
+    color: #4cd7af;
+}
+.sec-5 .hr-1{
+    position: absolute;
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1680px;
+    left: 150px;
+}
+.sec-5 .p-2{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(174, 173, 173);
+    top: 1900px;
+    left: 143px;
+}
+.sec-5 .p-3{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 2000px;
+    left: 180px;
+    
+}
+.sec-5 .fa-check{
+    position: absolute;
+    font-size: 20px;
+    width: 0;
+    height: 0;
+    top: 2000px;
+    left: 145px;
+}
+
+.sec-5 .check{
+    position: absolute;
+    font-size: 20px;
+    width: 0;
+    height: 0;
+    top: 45px;
+    left: 2px;
+}
+.sec-5 .img-rd{
+    position: absolute;
+    background-image: url(G1.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    right: 150px;
+    top: 2070px;
+
+}
+.sec-5 .img-m{
+    position: absolute;
+    background-image: url(G4.jpg);
+    background-size: cover;
+    width: 420px;
+    height: 360px;
+    right: 560px;
+    top: 2070px;   
+}
+.sec-5 .img-ld{
+    position: absolute;
+    background-image: url(G5.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 360px;
+    left: 140px;
+    top: 2070px; 
+}
+
+.sec-6{
+    width: 100%;
+    position: relative;
+    
+}
+.sec-6 .imgback{
+    width: 100%;
+    left: 0;
+    height: 270px;
+    position: absolute;
+    top: 2500px;
+    opacity: 0.2;
+    z-index: 1;
+    
+}
+
+.sec-6 .t-3{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 2500px;
+    left: 0;
+    z-index: -1;
+}
+.t-3 .img-1{
+    position: absolute;
+    width: 230px;
+    left: 190px;
+    top: 80px;
+}
+.t-3 .img-2{
+    position: absolute;
+    width: 230px;
+    left: 450px;
+    top: 80px;
+}
+.t-3 .img-3{
+    position: absolute;
+    width: 230px;
+    left: 710px;
+    top: 80px;
+}
+.t-3 .img-4{
+    position: absolute;
+    width: 230px;
+    left: 970px;
+    top: 80px;
+}
+.t-3 .img-5{
+    position: absolute;
+    width: 230px;
+    left: 1230px;
+    top: 80px;
+}
+.gradient6{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 2500px;
+    background-color: #0c0c0c;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: linear-gradient(to left,#4cd7af,transparent);
+}
+.sec-7{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 2900px;
+}
+.sec-7 .p-1{
+    position: absolute;
+    font-size: 20px;
+    color: #4cd7af;
+    left: 150px;
+    font-family: sans-serif;
+}
+.sec-7 .h1-1{
+    position: absolute;
+    font-size: 55px;
+    color: white;
+    left: 150px;
+    top: 35px;
+}
+.Exoeriece{
+    color: #4cd7af;
+}
+.sec-7 .p-2{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(174, 173, 173);
+    right: 100px;
+    top: 100px;
+}
+.sec-7 .fa-circle-check{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 20px;
+    top: 60px;
+    right: 240px;
+}
+.sec-7 .check{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 20px;
+    top: 245px;
+    right: 490px;
+}
+.sec-7 .p-3{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(174, 173, 173);
+    right: 490px;
+    top: 300px;
+}
+.sec-7 .img-1{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    left: 220px;
+    top: 450px;
+}
+
+.sec-7 .img-2{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    right: 170px;
+    top: 550px;
+}
+.sec-7 .fa-circle-play{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top: 680px;
+    right: 470px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+}
+.sec-7 .icon .fa-circle-play{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    top: 580px;
+    left: 470px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+}
+.sec-8{
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
+.sec-8 .img-back{
+    background-image: url(Bg-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    top: 4600px;
+    width: 100%;
+    height: 100%;
+}
+.sec-8 .p-1{
+    position: absolute;
+    font-size: 30px;
+    color: #4cd7af;
+    left: 45%;
+    top: 4600px;
+}
+.sec-8  .h1-1{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left: 36%;
+    top: 4660px;
+}
+.Team{
+    color: #4cd7af;
+}
+.sec-8 hr{
+    position: absolute;
+    width: 6%;
+    left: 48%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4cd7af;
+    height: 2px;
+    top: 4590px;
+}
+.sec-8 .p-2{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(174, 173, 173);
+    left: 30%;
+    top: 4760px;
+}
+.p-2 .t-p2{
+    position: absolute;
+    left: 100px;
+}
+.sec-8 .t-4{
+    position: absolute;
+    width: 75%;
+    height: 65%;
+    top: 4800px;
+    left: 14%;
+   background-color: #0c0c0c;
+   border-spacing: 15px;
+
+}
+.t-4 .img-ru{
+    position: absolute;
+    width: 200px;
+    right: 31%;
+    top: 20px;
+    z-index: 2;
+    background-color: #151515;
+}
+.td1{
+    position: absolute;
+    background-color: #151515;
+    width: 540px;
+    height: 205px;
+    top: 4820px;
+    left: 52%;
+    z-index: 1;
+}
+.td2{
+    position: absolute;
+    background-color: #151515;
+    width: 540px;
+    height: 210px;
+    top: 4820px;
+    left: 15%;
+    z-index: 1;
+}
+.td3{
+    position: absolute;
+    background-color: #151515;
+    width: 540px;
+    height: 210px;
+    top: 5050px;
+    left: 15%;
+    z-index: 1;
+}
+.td4{
+    position: absolute;
+    background-color: #151515;
+    width: 540px;
+    height: 210px;
+    top: 5050px;
+    left: 52%;
+    z-index: 1;
+}
+.t-4 .h1-1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 35px;
+    left: 69%;
+    z-index: 2;
+    background-color: #151515;
+
+}
+.t-4 .p-1{
+    position: absolute;
+    font-size: 15px;
+    color: #4cd7af;
+    top: 80px;
+    left: 69%;
+    z-index: 2;
+    background-color: #151515;
+}
+.t-4 .p-2{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(174, 173, 173);
+    right: 50px;
+    left: 69%;
+    top: 165px;
+    background-color: #151515;
+    z-index: 2;
+}
+.t-4 .fa-facebook{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 69%;
+    top: 205px;
+    z-index: 2;
+}
+.t-4 .fa-twitter{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 73%;
+    top: 205px;
+    z-index: 2;
+}
+.t-4 .fa-instagram{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 77%;
+    top: 205px;
+    z-index: 2;
+}
+.t-4 .img-lu{
+    position: absolute;
+    width: 200px;
+    left: 4%;
+    top: 18px;
+    z-index: 2;
+    background-color:#151515;
+}
+.t-4 .h1-2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 35px;
+    left: 24%;
+    right: 55%;
+    z-index: 2;
+    height: 0;
+
+}
+.t-4  .p-3{
+    position: absolute;
+    font-size: 15px;
+    color: #4cd7af;
+    top: 80px;
+    left: 24%;
+    right: 55%;
+    height: 0px;
+    z-index: 2;
+}
+.t-4 .p-4{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(174, 173, 173);
+    right: 50px;
+    left: 24%;
+    top: 165px;
+    background-color: #151515;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-facebook1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 24%;
+    top: 1px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-twitter2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 28%;
+    top: 1px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-instagram2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 32%;
+    top: 1px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .imgld{
+    position: absolute;
+    width: 200px;
+    left: 4%;
+    top: 250px;
+    z-index: 2;
+    background-color:#151515;
+}
+.t-4 .h1-3{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 270px;
+    left: 24%;
+    right: 55%;
+    z-index: 2;
+    height: 0;
+
+}
+.t-4 .p-5{
+    position: absolute;
+    font-size: 15px;
+    color: #4cd7af;
+    top: 315px;
+    left: 24%;
+    right: 55%;
+    height: 0px;
+    z-index: 2;
+}
+.t-4 .p-6{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(174, 173, 173);
+    right: 50px;
+    left: 24%;
+    top: 390px;
+    background-color: #151515;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-facebook2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 24%;
+    top: 230px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-twitter3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 28%;
+    top: 230px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-instagram3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 32%;
+    top: 230px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .img-rd{
+    position: absolute;
+    width: 200px;
+    right: 31%;
+    top: 250px;
+    z-index: 2;
+    background-color:#151515;
+}
+.t-4 .h1-4{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 270px;
+    right: 0;
+    height: 0;
+    left: 69%;
+    z-index: 2;
+    background-color: #151515;
+}
+.t-4 .p-7{
+    position: absolute;
+    color: #4cd7af;
+    font-size: 15px;
+    top: 315px;
+    left: 69%;
+    height: 0px;
+    z-index: 2;
+
+}
+.t-4 .p-8{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(174, 173, 173);
+    right: 0;
+    left: 69%;
+    top: 390px;
+    background-color: #151515;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-facebook3{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 69%;
+    top: 230px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-twitter4{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 73%;
+    top: 230px;
+    z-index: 2;
+    height: 0;
+}
+.t-4 .fa-instagram4{
+    position: absolute;
+    width: 0;
+    height: 0;
+    font: 150px;
+    left: 77%;
+    top: 230px;
+    z-index: 2;
+    height: 0;
+}
+
+.sec-9{
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    
+}
+.sec-9 .p1{
+    position: absolute;
+    color: #4cd7af;
+    font-size: 20px;
+    top: 5360px;
+    left: 48%;
+    z-index: 2;
+}
+.sec-9 .h1-1{
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    top: 5380px;
+    left: 35%;
+}
+.Work{
+    color: #4cd7af;
+}
+.sec-9 .hr-1{
+    position: absolute;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    top: 5350px;
+    left: 46%;
+    z-index: 2;
+}
+.sec-9 .p-2{
+    position: absolute;
+    font-size: 12px;
+    color: rgb(174, 173, 173);
+    top: 5530px;
+}
+.sec-9 .p-2 .t1{
+    position: absolute;
+    left: 100px;
+}
+.sec-9 .t-5{
+    position: absolute;
+    width: 70%;
+    height: 150%;
+    top: 5600px;
+    left: 15%;
+    border-spacing: 6px;
+}
+.sec-9 .img-1{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 5px;
+    right: 1%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-2{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 5px;
+    right: 34%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-3{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 5px;
+    right: 67%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-4{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 370px;
+    right: 1%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-5{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 370px;
+    right: 34%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-6{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 370px;
+    right: 67%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-7{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 740px;
+    right: 1%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-8{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 740px;
+    right: 34%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-9 .img-9{
+    position: absolute;
+    width: 340px;
+    height: 355px;
+    top: 740px;
+    right: 67%;
+    z-index: 3;
+    background-image: url(G3.jpg);
+}
+.sec-10{
+    width: 100%;
+    height: 100%;
+    
+}
+.sec-10 .img-back{
+    position: absolute;
+    background-image: url(adadad.jpg);
+    top: 6800px;
+    height: 60%;
+    z-index: 2;
+}
+.sec-10 .p-1{
+    position: absolute;
+    font-size: 15px;
+    color: #4cd7af;
+    top: 6820px;
+    left: 10%;
+    font-family: sans-serif;
+    
+}
+.sec-10 .h1-1{
+    position: absolute;
+    font-size: 70px;
+    top: 6850px;
+    left: 10%;
+    z-index: 1;
+}
+.Client{
+    color: #4cd7af;
+}
+.sec-10 .hr-3{
+    position: absolute;
+    width: 8%;
+    height: 2px;
+    background-color: #4cd7af;
+    top: 6820px;
+    left: 10%;
+}
+.sec-10 .p-2{
+    position: absolute;
+    font-size: 18px;
+    color: rgb(174, 173, 173);
+    top: 7000px;
+    left: 10%;
+}
+ .sec-10.button{
+    position: absolute;
+    width: 450px;
+    height: 80px;
+    top: 7420px;
+    left: 10%;
+    z-index: 3;
+    color: #4cd7af;
+}
+.sec-10 .button{
+    position: absolute;
+    top: -60px;
+
+}
+.sec-10 .p-3{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    top: 7180px;
+    padding-top: 20px;
+    z-index: 3;
+    width: 350px;
+    background-color: #4cd7af;
+    height: 60px;
+}
+.sec-10 .background{
+    position: absolute;
+    width: 580px;
+    height: 300px;
+    top: 6900px;
+    right: 8%;
+    background-color: #0c0c0c;
+    z-index: 2;
+    opacity: 0.8;
+} 
+.sec-10 .background .p-4{
+    position: absolute;
+    font-size: 17px;
+    color:  rgb(174, 173, 173);
+    top: 50px;
+    right:3%;
+}
+.sec-10 .background .img-1{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    top: 190px;
+    left: 7%;
+}
+.sec-10 .background .h1-2{
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 190px;
+    left: 25%;
+}
+.sec-10 .background .p-5{
+    position: absolute;
+    color: #4cd7af;
+    top: 245px;
+    left: 25%;
+    font-size: 18px;
+}
+.sec-10 .background .img-2{
+    position: absolute;
+    right: 5%;
+    width: 50px;
+    height: 70px;
+    top: 190px;
+}
+.sec-10 .background .img-3{
+    position: absolute;
+    right: 13%;
+    width: 50px;
+    height: 70px;
+    top: 190px;
+}
+.sec-11{
+    width: 100%;
+    height: 100%;
+    
+}
+.sec-11 .p-1{
+    position: absolute;
+    font-size: 18px;
+    height: 0;
+    width: 90px;
+    color: #4cd7af;
+    left: 48%;
+    top: 7280px;
+}
+.sec-11 .h1-1{
+    position: absolute;
+    font-size: 50px;
+    left: 38%;
+    width: 400px;
+    height: 0;
+    top: 7300px;
+    color: white;
+}
+.News{
+    color: #4cd7af;
+}
+.sec-11 .hr-1{
+    position: absolute;
+    width: 6%;
+    background-color: #4cd7af;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 7230px;
+    left: 48%;
+}
+.sec-11 .p-2{
+    position: absolute;
+    color: rgb(174, 173, 173);
+    font-size: 20px;
+    top: 7400px;
+    left: 20%;
+}
+.sec-11 .p-2 .t-1{
+    position: absolute;
+    left: 150px;
+}
+.sec-11 .t-5{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 7490px;
+    left: 17%;
+    border-spacing: 20px;
+}
+.sec-11 .t-5 .img-1{
+    position: absolute;
+    width: 330px;
+    height: 350;
+     right: 2%;   
+}
+.sec-11 .t-5 .img-2{
+    position: absolute;
+    width: 330px;
+    height: 220px;
+    top: 30px;
+    bottom: 250px;
+    left: 34%;
+}
+.t-5 .p-10{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(174, 173, 173);
+    right: 38%;
+    top: 350px;
+}
+
+.t-5 .p-11{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(174, 173, 173);
+    right: 70%;
+    top: 350px;
+}
+.sec-11 .t-5 .img-3{
+    position: absolute;
+    width: 330px;
+    height: 220px;
+    top: 30px;
+    left: 1%;
+}
+.sec-11 .h2-1{
+    position: absolute;
+    font-size: 25px;
+    color: #4cd7af;
+    top: 260px;
+    right: 6%;
+}
+.sec-11 .t-5 .p-3{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(174, 173, 173);
+    right: 4%;
+    top: 350px;
+}
+.t-5 .fa-calendar-days{
+    position: absolute;
+    top: 470px;
+    right: 32%;
+}
+.business1{
+    position: absolute;
+    top: 465px;
+    right: 16%;
+    height: 25px;
+}
+.business2{
+    position: absolute;
+    top: 465px;
+    right: 48%;
+    height: 25px;
+}
+.business3{
+    position: absolute;
+    top: 465px;
+    right: 81%;
+    height: 25px;
+
+}
+.t-5 .p-4{
+    position: absolute;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    height: 0px;
+    right: 20%;
+    top: 470px;
+}
+.t-5 .fa-square-list{
+    position: absolute;
+    top: 5000px;
+    left: 55%;
+}
+.t-5 .p-5{
+    position: absolute;
+    top: 470px;
+    left: 85%;
+    font-size: 15px;
+    color: white;
+}
+.t-5 .h2-2{
+    position: absolute;
+    font-size: 25px;
+    color: #4cd7af;
+    top: 260px;
+    right: 42%;
+}
+.t-5 .fa-calender2 {
+    position: absolute;
+    top: 1px;
+    right: 63%;
+}
+.t-5 .p-6{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 39%;
+    top: 470px;
+}
+.t-5 .p-7{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    background-color: #0c0c0c;
+    left: 53%;
+    top: 470px;
+}
+.t-5 .fa-square-list2{
+    position: absolute;
+    top: 1px;
+    left: 37%;
+}
+.t-5 .h2-3{
+    position: absolute;
+    font-size: 25px;
+    color: #4cd7af;
+    top: 260px;
+    left: 1%;
+}
+.t-5 .fa-calender3 {
+    position: absolute;
+    top: 1px;
+    left: 4%;
+}
+.t-5  .p-8{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 6%;
+    top: 470px;
+}
+.t-5 .p-9{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    left: 20%;
+    top: 470px;
+}
+.sec-12{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 8100px;
+}
+.sec-12 .sec-all{
+    position: absolute;
+    left: 2%;
+    size: 1px;
+    padding-left: 10px;
+    padding-right:0;
+    height: 55%;
+    width: 2px;
+    border-color: #4cd7af;
+}
+.sec-12 .name{
+    position: absolute;
+    border-color: #4cd7af;
+    width: 740px;
+    height: 30px;
+    color: #4cd7af;
+}   
+.sec-12 .email{
+    position: absolute;
+    border-color: #4cd7af;
+    color: #4cd7af;
+    width: 740px;
+    height: 30px;
+}
+.sec-12 .message{
+    position: absolute;
+    border-color: #4cd7af;
+    color: #4cd7af;
+    width: 740px;
+    height: 50px;
+}
+.sec-12 .send{
+    position: absolute;
+    border-color: #4cd7af;
+    background-color: #4cd7af;
+    color: white;
+    width: 680px;
+    height: 50px;
+    left: 45px;
+    top: 320px;
+}
+.sec-12 .p-1{
+    position: absolute;
+    color: #4cd7af;
+    font-size: 15px;
+    left: 53%;
+    top:10px;
+}
+.sec-12 .h1-1{
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    top: 30px;
+    left: 53%;
+}
+.Touch{
+    color: #4cd7af;
+}
+.sec-12 .hr-1{
+    position: absolute;
+    width: 6%;
+    height: 2px;
+    background-color: #4cd7af;
+    left: 53%;
+    top: -20px;
+}
+.sec-12 .p2{
+    position: absolute;
+    font-size: 15px;
+    color: rgb(174, 173, 173);
+    top: 150px;
+    left: 53%;
+}
+.location{
+    position: absolute;
+    font-size: 20px;
+    right: 43%;
+    top: 230px;
+}
+.sec-12 .h2-1{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 58%;
+    top: 230px;
+
+}
+.sec-12 .p-3{
+    position: absolute;
+    font-size: 13px;
+    color: #4cd7af;
+    left: 58%;
+    top: 270px;
+}
+.call{
+    position: absolute;
+    font-size: 20px;
+    right: 43%;
+    top: 300px;
+}
+.sec-12  .h2-2{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 58%;
+    top: 300px;
+}
+.sec-12 .p-4{
+    position: absolute;
+    font-size: 13px;
+    color: #4cd7af;
+    left: 58%;
+    top: 340px;
+}
+.mail{
+    position: absolute;
+    font-size: 20px;
+    right: 43%;
+    top: 360px;
+}
+.sec-12 .h2-3{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    left: 58%;
+    top: 360px;
+}
+.sec-12 .p-5{
+    position: absolute;
+    font-size: 13px;
+    color: #4cd7af;
+    left: 58%;
+    top: 400px;
+}
+.sec-12 .h1-2{
+    position: absolute;
+    font-size: 60px;
+    color: #4cd7af;
+    top: 600px;
+    right: 43%;
+}
+.sec-12 .p-6{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    top: 680px;
+    left: 47%;
+}
+
+
+.sec-12 .p-7{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 860px;
+    left: 34%;
+    background-color: #0c0c0c;
+}
+.sec-12 .t-5{
+    position: absolute;
+    left: 85px;
+}
+.links{
+    position: absolute;
+    width: 50%;
+    height: 50px;
+    top: 730px;
+    left: 28%;
+    display: flex;
+    
+    font-size: 20px;
+}
+.links a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4cd7af;
+    padding: 8px 15px 8px 20px;
+}
+.sec-12 .fa-facebook{
+    position: absolute;
+    top: 1030px;
+    left: 35%;
+    font-size: 35px;
+
+}
+.sec-12 .fa-twitter{
+    position: absolute;
+    top: 1030px;
+    left: 45%;
+    font-size: 35px;
+
+}
+.sec-12 .fa-instagram{
+    position: absolute;
+    top: 1030px;
+    left: 55%;
+    font-size: 35px;
+
+}
+.pinterest{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 1030px;
+    left: 65%;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 6900px;
+}
+footer p{
+    position: absolute;
+    font-size: 20px;
+    color: rgb(174, 173, 173);
+    top: 2380px;
+    left: 30%;
+}
